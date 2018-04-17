@@ -34,14 +34,11 @@ gulp.task(
     [ TASK_INJECT_SASS, TASK_COMPILE_SASS ],
     function() {
 
-        gulp.watch([
-            '{0}/**/*.scss'.formatUnicorn(
-                config.source.base
-            ),
-            '{0}/*.scss'.formatUnicorn(
-                config.source.base
-            )
-        ], [ TASK_INJECT_SASS, TASK_COMPILE_SASS ]);
+        gulp.watch(
+            [ '**/*.scss', '*/*.scss' ],
+            { cwd: config.source.base },
+            [ TASK_INJECT_SASS, TASK_COMPILE_SASS ]
+        );
 
     }
 );
