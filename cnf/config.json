@@ -1,4 +1,7 @@
 {
+  "browser": {
+      "proxy": "http://kodeline/llarlineapp-web/"
+  },
   "source": {
     "base": "/www/kodeline/llarlineapp-web/wp-content/themes/kodeline/assets/sass",
     "folders": {
