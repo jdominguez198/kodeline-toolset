@@ -1,9 +1,9 @@
 {
   "browser": {
-      "proxy": "http://kodeline/llarlineapp-web/"
+      "proxy": "http://kodeline/elitepoker/"
   },
   "source": {
-    "base": "/www/kodeline/llarlineapp-web/wp-content/themes/kodeline/assets/sass",
+    "base": "/www/kodeline/elitepoker/wp-content/themes/kodeline/assets/sass",
     "folders": {
       "core": "core",
       "mixins": "mixins",
@@ -15,7 +15,7 @@
 
   },
   "distribution": {
-    "base": "/www/kodeline/llarlineapp-web/wp-content/themes/kodeline/assets/css",
+    "base": "/www/kodeline/elitepoker/wp-content/themes/kodeline/assets/css",
     "file": "kodeline.min.css"
   }
 }
