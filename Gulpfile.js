@@ -8,8 +8,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const browserSync = require('browser-sync').create();
 
 // Utils & Config
-const utils = require('./lib/utils');
-const config = require('./cnf/config.json');
+const getConfig = require('./lib/config-handler');
 
 // Tasks sources
 const taskInjectSass = require('./lib/task-inject-sass');
@@ -45,7 +44,9 @@ gulp.task(
 
         gulp.watch(
             [ '**/*.scss', '*/*.scss' ],
-            { cwd: config.source.base },
+            {
+                cwd: getConfig('source.base')
+            },
             [ TASK_INJECT_SASS, TASK_COMPILE_SASS ]
         );
 

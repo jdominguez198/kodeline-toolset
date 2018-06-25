@@ -1,21 +1,5 @@
 {
-  "browser": {
-      "proxy": "http://kodeline/elitepoker/"
-  },
-  "source": {
-    "base": "/www/kodeline/elitepoker/wp-content/themes/kodeline/assets/sass",
-    "folders": {
-      "core": "core",
-      "mixins": "mixins",
-      "components": "components"
-    },
-    "files": {
-      "container": "styles.scss"
-    }
-
-  },
-  "distribution": {
-    "base": "/www/kodeline/elitepoker/wp-content/themes/kodeline/assets/css",
-    "file": "kodeline.min.css"
-  }
+  "public_url": "http://kodeline/clarasanchopsicologia/",
+  "theme_name": "kodeline",
+  "theme_location": "/www/kodeline/clarasanchopsicologia/wp-content/themes/"
 }
