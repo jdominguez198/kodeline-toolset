@@ -70,3 +70,4 @@ typings/
 .next
 
 package-lock.json
+/cnf/config.json
