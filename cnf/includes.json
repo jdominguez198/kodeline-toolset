@@ -1,6 +1,7 @@
 {
   "browser": {
-      "proxy": "{{CONFIG_PUBLIC_URL}}"
+      "proxy": "{{CONFIG_PUBLIC_URL}}",
+      "port": "{{CONFIG_BROWSERSYNC_PORT}}"
   },
   "source": {
     "base": "{{CONFIG_THEME_LOCATION}}{{CONFIG_THEME_NAME}}/assets/sass",
