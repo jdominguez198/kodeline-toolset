@@ -17,6 +17,6 @@
   },
   "distribution": {
     "base": "{{CONFIG_THEME_LOCATION}}{{CONFIG_THEME_NAME}}/assets/css",
-    "file": "{{CONFIG_THEME_NAME}}.min.css"
+    "file": "{{CONFIG_THEME_NAME}}_styles.min.css"
   }
 }
