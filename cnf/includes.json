@@ -1,10 +1,12 @@
 {
   "browser": {
-      "proxy": "{{CONFIG_PUBLIC_URL}}",
-      "port": "{{CONFIG_BROWSERSYNC_PORT}}"
+    "url": "{{CONFIG_PUBLIC_URL}}",
+    "proxy": "{{CONFIG_PROXY_URL}}",
+    "port": "{{CONFIG_BROWSERSYNC_PORT}}",
+    "admin_port": "{{CONFIG_BROWSERSYNC_ADMIN_PORT}}"
   },
   "source": {
-    "base": "{{CONFIG_THEME_LOCATION}}{{CONFIG_THEME_NAME}}/assets/sass",
+    "base": "{{SITE_BASE_PATH}}{{SITE_ASSETS_RELATIVE_PATH}}assets/sass",
     "folders": {
       "core": "core",
       "mixins": "mixins",
@@ -16,7 +18,7 @@
 
   },
   "distribution": {
-    "base": "{{CONFIG_THEME_LOCATION}}{{CONFIG_THEME_NAME}}/assets/css",
-    "file": "{{CONFIG_THEME_NAME}}_styles.min.css"
+    "base": "{{SITE_BASE_PATH}}{{SITE_ASSETS_RELATIVE_PATH}}assets/css",
+    "file": "{{CONFIG_CSS_DIST_FILENAME}}.min.css"
   }
 }

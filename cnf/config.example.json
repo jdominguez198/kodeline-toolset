@@ -1,6 +1,9 @@
 {
-  "public_url": "http://web:80/",
   "browsersync_port": 3000,
-  "theme_name": "kodeline",
-  "theme_location": "/var/www/html/wp-content/themes/"
+  "browsersync_admin_port": 3001,
+  "public_url": "http://example-site.kodeline/",
+  "site_proxy_url": "http://httpd:80/",
+  "site_base_path": "/srv/app/",
+  "site_assets_relative_path": "wp-content/themes/theme/",
+  "css_dist_filename": "styles"
 }
