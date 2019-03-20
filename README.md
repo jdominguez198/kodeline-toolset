@@ -5,6 +5,10 @@ The repository can be used with other Docker containers or as a single utility.
 
 ## Changelog
 
+### v1.1.5
+
+> Change Task BrowserSync to allow some options to be avoided
+
 ### v1.1.4
 
 > Change config.json and includes.json to handle more customizations
