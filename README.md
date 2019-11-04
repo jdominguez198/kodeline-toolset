@@ -5,6 +5,10 @@ The repository can be used with other Docker containers or as a single utility.
 
 ## Changelog
 
+### v1.1.6
+
+> Update gulp-inject to version 5.0.4
+
 ### v1.1.5
 
 > Change Task BrowserSync to allow some options to be avoided
